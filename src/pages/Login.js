@@ -5,7 +5,7 @@ import logo from '../assets/logo-complete.png';
 import api from '../services/api';
 
 export default function Login({ history }) {
-	const [identifier, setIdentifire] = useState('');
+	const [identifier, setIdentifier] = useState('');
 
 	async function handleSubmit(event) {
 		event.preventDefault();
@@ -21,7 +21,7 @@ export default function Login({ history }) {
 				<input
 					placeholder="Type your hackathon identifier"
 					value={identifier}
-					onChange={event => setIdentifire(event.target.value)}
+					onChange={event => setIdentifier(event.target.value)}
 				/>
 				<button type="submit">Join</button>
 			</form>
