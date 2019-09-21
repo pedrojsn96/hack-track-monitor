@@ -1,4 +1,5 @@
 import React, { useState, useEffect } from 'react';
+import io from 'socket.io-client';
 import './Board.css';
 
 import List from './List';
@@ -9,12 +10,21 @@ import { filterTeam } from '../utils/utils';
 export default function Board({ hackathon }) {
 	const [teams, setTeams] = useState([]);
 
+	async function loadTeams() {
+		const response = await api.get(`/teams?hackaId=${hackathon}`);
+		setTeams(response.data);
+	}
+
 	useEffect(() => {
-		async function loadTeams() {
-			const response = await api.get(`/teams?hackaId=${hackathon}`);
-			setTeams(response.data);
-		}
 		loadTeams();
+	}, []);
+
+	useEffect(() => {
+		const socket = io('https://hacktrack-open.herokuapp.com');
+
+		socket.on('teams', () => {
+			loadTeams();
+		});
 	}, []);
 
 	return (
