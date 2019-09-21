@@ -1,0 +1,9 @@
+.header-container {
+	display: flex;
+	justify-content: center;
+}
+
+.header-container img {
+	max-height: 80px;
+	padding: 0 20px;
+}

@@ -1,0 +1,14 @@
+.monitor-container {
+	max-width: 1024px;
+	margin: 0 30px;
+	padding: 25px 0;
+	text-align: center;
+}
+
+.monitor-container .title {
+	font-size: 24px;
+	font-weight: 300;
+	letter-spacing: 0.14px;
+	color: #1e354c;
+	display: flex;
+}

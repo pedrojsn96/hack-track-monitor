@@ -1,0 +1,24 @@
+.list-container {
+	padding: 0 15px;
+	flex: 0 0 320px;
+	border-left: 5px solid rgba(0, 0, 0, 0.05);
+}
+
+.list-container header {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	height: 42px;
+}
+
+.list-container header h2 {
+	font-weight: 500;
+	font-size: 24px;
+	padding: 0 10px;
+	letter-spacing: 0.14px;
+	color: #1e354c;
+}
+
+.list-container ul {
+	margin-top: 30px;
+}
