@@ -1,0 +1,60 @@
+.how-works {
+	display: flex;
+	justify-content: center;
+	flex-direction: column;
+	align-items: center;
+	padding-top: 150px;
+	padding-bottom: 150px;
+	text-align: center;
+
+	&__wrapper {
+		max-width: 650px;
+		margin-bottom: 50px;
+	}
+
+	&__list {
+		list-style: none;
+		padding: 0;
+		margin: 0;
+
+		@media (min-width: 768px) {
+			display: flex;
+			margin-top: 80px;
+		}
+	}
+
+	&__item {
+		position: relative;
+		margin-top: 60px;
+
+		@media (min-width: 768px) {
+			padding: 0 20px;
+			margin-top: 0;
+			flex: 1;
+		}
+	}
+
+	&__number {
+		position: absolute;
+		width: inherit;
+		height: 100%;
+		z-index: -2;
+		left: 0;
+		height: 100%;
+		top: 0;
+		margin-top: -60px;
+	}
+
+	&__item-title {
+		font-family: Poppins;
+		font-size: 26px;
+		font-weight: 500;
+		letter-spacing: 0.19px;
+		color: #000000;
+		text-align: left;
+
+		@media (min-width: 768px) {
+			font-size: 32px;
+		}
+	}
+}

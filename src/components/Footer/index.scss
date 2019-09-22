@@ -1,0 +1,19 @@
+.footer {
+	background-color: #191e59;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	padding: 40px 40px;
+
+	&__container {
+		max-width: 1280px;
+		margin: auto;
+		width: 100%;
+		display: flex;
+		justify-content: center;
+
+		@media (min-width: '768px') {
+			justify-content: flex-start;
+		}
+	}
+}

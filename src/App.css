@@ -25,3 +25,41 @@ button {
 ul {
 	list-style: none;
 }
+
+section {
+	max-width: 1280px;
+	display: flex;
+	justify-content: center;
+	margin: auto;
+	padding: 40px 20px;
+}
+
+@media (min-width: 768px) {
+	h1 {
+		font-size: 48px;
+	}
+
+	p {
+		font-size: 24px;
+	}
+
+	section {
+		padding: 40px 40px;
+	}
+}
+
+h1 {
+	font-family: 'Poppins', sans-serif;
+	font-size: 32px;
+	font-weight: 900;
+	font-style: normal;
+	font-stretch: normal;
+	line-height: normal;
+	letter-spacing: 0.29px;
+	color: #1e354c;
+	margin: 0;
+}
+
+p {
+	font-size: 18px;
+}
