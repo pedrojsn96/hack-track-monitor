@@ -13,13 +13,13 @@ const Mentor = () => (
 			<li className="how-works__item">
 				<Image className="how-works__number" alt="" src="/images/2.png" />
 				<h2 className="how-works__item-title">
-					Give them precise feedback at the right moment!
+					Give precise feedback at the right moment!
 				</h2>
 			</li>
 			<li className="how-works__item">
 				<Image className="how-works__number" alt="" src="/images/3.png" />
 				<h2 className="how-works__item-title">
-					Give them precise feedback at the right moment!
+					Comment on team track so other mentors can see
 				</h2>
 			</li>
 		</ol>

@@ -2,7 +2,6 @@ import './index.scss';
 
 import { Col, Row } from 'react-flexbox-grid';
 
-import Button from '../Button';
 import Image from '../Image';
 import React from 'react';
 
@@ -22,10 +21,19 @@ const Header = () => (
 				</p>
 				<Row>
 					<Col xs={12} xl={6}>
-						<Button primary>Download for iOS</Button>
-					</Col>
-					<Col xs={12} xl={6}>
-						<Button primary>Download for Android</Button>
+						<a
+							href="https://www.producthunt.com/posts/hackontrol?utm_source=badge-featured&utm_medium=badge&utm_souce=badge-hackontrol"
+							target="_blank"
+						>
+							<img
+								src="https://api.producthunt.com/widgets/embed-image/v1/featured.svg?post_id=168615&theme=dark"
+								alt="Hackontrol - Building a team in a hackathon has never been so easy! | Product Hunt Embed"
+								style={{
+									width: 250,
+									height: 54
+								}}
+							/>
+						</a>
 					</Col>
 				</Row>
 			</Col>

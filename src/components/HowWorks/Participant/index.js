@@ -6,9 +6,7 @@ const Participant = () => (
 		<ol className="how-works__list">
 			<li className="how-works__item">
 				<Image className="how-works__number" alt="" src="/images/1.png" />
-				<h2 className="how-works__item-title">
-					Pick a team or create your own!
-				</h2>
+				<h2 className="how-works__item-title">Pick or create a team</h2>
 			</li>
 			<li className="how-works__item">
 				<Image className="how-works__number" alt="" src="/images/2.png" />

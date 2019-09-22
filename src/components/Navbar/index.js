@@ -14,15 +14,6 @@ const Navbar = () => (
 						<Logo />
 					</div>
 				</Col>
-				<Col cs={12} md={6}>
-					<div className="navbar__links-wrapper">
-						<ul className="navbar__links">
-							<li className="navbar__link">home</li>
-							<li className="navbar__link">our product</li>
-							<li className="navbar__link">contact us</li>
-						</ul>
-					</div>
-				</Col>
 			</Row>
 		</div>
 	</div>
