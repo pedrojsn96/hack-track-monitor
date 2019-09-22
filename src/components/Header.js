@@ -8,7 +8,7 @@ export default function Header() {
 	return (
 		<div className="header-container">
 			<Link to="/">
-				<img src={logo} alt="Hacktrack" />
+				<img src={logo} alt="Hackatrack" />
 			</Link>
 		</div>
 	);

@@ -20,8 +20,7 @@ export default function Board({ hackathon }) {
 	}, []);
 
 	useEffect(() => {
-		// const socket = io('https://hacktrack-open.herokuapp.com');
-		const socket = io('http://localhost:8080');
+		const socket = io('https://hacktrack-open.herokuapp.com');
 
 		socket.on('teams', () => {
 			loadTeams();
