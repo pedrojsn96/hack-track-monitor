@@ -11,9 +11,9 @@ export default function Card({ item }) {
 	let borderTop = null;
 
 	if (item.status !== '' && item.status == 'ok') {
-		borderTop = '40px solid rgb(145,221,213)';
+		borderTop = '40px solid #38DE7B';
 	} else if (item.status !== '' && item.status == 'nok') {
-		borderTop = '40px solid rgb(241,173,183)';
+		borderTop = '40px solid #E94A47';
 	}
 
 	useEffect(() => {
