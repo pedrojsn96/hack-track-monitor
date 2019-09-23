@@ -22,12 +22,12 @@ const Header = () => (
 				<Row>
 					<Col xs={12} xl={6}>
 						<a
-							href="https://www.producthunt.com/posts/hackontrol?utm_source=badge-featured&utm_medium=badge&utm_souce=badge-hackontrol"
+							href="https://www.producthunt.com/posts/hackatrack?utm_source=badge-featured&utm_medium=badge&utm_souce=badge-hackatrack"
 							target="_blank"
 						>
 							<img
-								src="https://api.producthunt.com/widgets/embed-image/v1/featured.svg?post_id=168615&theme=dark"
-								alt="Hackontrol - Building a team in a hackathon has never been so easy! | Product Hunt Embed"
+								src="https://api.producthunt.com/widgets/embed-image/v1/featured.svg?post_id=168673&theme=dark"
+								alt="hackatrack - Say goodbye to stress and unproductivity in hackathons | Product Hunt Embed"
 								style={{
 									width: 250,
 									height: 54
