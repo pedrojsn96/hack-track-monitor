@@ -1,68 +1,83 @@
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+# Hackatrack Monitor
 
-## Available Scripts
+The Hackatrack mission is to reduce stress and improve productivity in hackathons with an status update platform in 
+which all the teams share their progress with all the mentors, so they can give precise mentoring at the right moment, 
+keeping everyone in the same page
 
-In the project directory, you can run:
+### DEV Notes
 
-### `npm start`
+## Tech Stack
 
-Runs the app in the development mode.<br>
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+- [React](https://reactjs.org/)
 
-The page will reload if you make edits.<br>
-You will also see any lint errors in the console.
+## Libs usadas
 
-### `npm test`
+- [axios](https://github.com/axios/axios)
+- [moment](https://momentjs.com/)
+- [socket.io-client](https://www.npmjs.com/package/socket.io-client)
+- [react-router-dom](https://www.npmjs.com/package/react-router-dom)
 
-Launches the test runner in the interactive watch mode.<br>
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+### Rodando o projeto localmente
 
-### `npm run build`
+- `git clone https://github.com/pedrojsn96/hack-track-monitor.git`
+- `yarn`
+- `yarn start`
+  <br/>
 
-Builds the app for production to the `build` folder.<br>
-It correctly bundles React in production mode and optimizes the build for the best performance.
+## Tech Stack
 
-The build is minified and the filenames include the hashes.<br>
-Your app is ready to be deployed!
+**On Mobile App**:
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+- [Flutter](https://flutter.dev/) 👉🏾 [This same Repository 😆](https://github.com/samuelmataraso/hacktrack)
 
-### `npm run eject`
+**On BackEnd**:
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+- [NodeJS](https://nodejs.org/en/) 👉🏾 [Project Repository](https://github.com/pedrojsn96/hack-track)
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+**On Monitor and Landing page**:
 
-Instead, it will copy all the configuration files and the transitive dependencies (Webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+- [ReactJs](https://reactjs.org/) 👉🏾 [Project Repository](https://github.com/pedrojsn96/hack-track-monitor)
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+<br/>
 
-## Learn More
+<!-- about app END-->
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+<!-- final considerations -->
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+## Final Considerations
 
-### Code Splitting
+Due to bureaucratic points, the app is not yet in stores, more will be very soon 🤞🏾👍🏾!
+<br/>
+So stay tuned to our [Product Hunt](https://www.producthunt.com/posts/hackatrack) page 📑👍🏾!
 
-This section has moved here: https://facebook.github.io/create-react-app/docs/code-splitting
+<!-- final considerations END-->
 
-### Analyzing the Bundle Size
+<br/>
 
-This section has moved here: https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size
+## Team
 
-### Making a Progressive Web App
+Thanks goes to these wonderful people ([emoji key](https://allcontributors.org/docs/en/emoji-key)):
 
-This section has moved here: https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app
+<!-- ALL-CONTRIBUTORS-LIST:START - Do not remove or modify this section -->
+<!-- prettier-ignore -->
+<table>
+  <tr>
+    <td align="center"><a href="https://twitter.com/samuelmataraso"><img src="https://i.imgur.com/l3wbz23.jpg" width="100px;" alt="Samuel Matias"/><br /><sub><b>Samuel Matias</b></sub></a><br /><a href="https://github.com/samuelmataraso"title="Code">💻</a></td>
+    <td align="center"><a href="https://twitter.com/pedrojsn96"><img src="https://i.imgur.com/VuujzeL.jpg" width="100px;" alt="Pedro Neto"/><br /><sub><b>Pedro Neto</b></sub></a><br /><a href="https://github.com/pedrojsn96"title="Code">💻</a></td>
+     <td align="center"><a href="https://twitter.com/Barrogostoso"><img src="https://i.imgur.com/7o85nCs.jpg" width="100px;" alt="Luis Barroso"/><br /><sub><b>Luis Barroso</b></sub></a><br /><a href="https://github.com/luismesquita"title="Code">💻</a></td>
+    <td align="center"><a href="https://twitter.com/pjbacelar"><img src="https://i.imgur.com/JKy7cll.jpg" width="100px;" alt="Pedro Bacerlar"/><br /><sub><b>Pedro Bacelar</b></sub></a><br /><a href="https://www.behance.net/pjbacelar?tracking_source=search%7Cpjbacelar"title="Design">🎨</a></td>
+    <td align="center"><a href="https://twitter.com/caralhojoaum"><img src="https://i.imgur.com/4kGRWdN.jpg" width="100px;" alt="João Ventura"/><br /><sub><b>João Ventura</b></sub></a><br /><a href="https://www.behance.net/joaovntr?tracking_source=search%7Cjo%C3%A3o%20ventura"title="Design">🎨</a></td>
+  </tr>
+</table>
 
-### Advanced Configuration
+<!-- ALL-CONTRIBUTORS-LIST:END -->
 
-This section has moved here: https://facebook.github.io/create-react-app/docs/advanced-configuration
 
-### Deployment
 
-This section has moved here: https://facebook.github.io/create-react-app/docs/deployment
+<br/>
 
-### `npm run build` fails to minify
+> Nota: Problemas? Vamos fazer juntos então 😄! pjsn@cin.ufpe.br 📧.
 
-This section has moved here: https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify
+<br/>
+
+<!-- about me -->
