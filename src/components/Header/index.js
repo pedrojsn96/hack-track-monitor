@@ -3,6 +3,7 @@ import './index.scss';
 import { Col, Row } from 'react-flexbox-grid';
 
 import Image from '../Image';
+import Button from '../Button/index';
 import React from 'react';
 
 const Header = () => (
@@ -21,19 +22,22 @@ const Header = () => (
 				</p>
 				<Row>
 					<Col xs={12} xl={6}>
-						<a
-							href="https://www.producthunt.com/posts/hackatrack?utm_source=badge-featured&utm_medium=badge&utm_souce=badge-hackatrack"
-							target="_blank"
+						<Button
+							goTo={'https://testflight.apple.com/join/G7P2dUfBg'}
+							primary
 						>
-							<img
-								src="https://api.producthunt.com/widgets/embed-image/v1/featured.svg?post_id=168673&theme=dark"
-								alt="hackatrack - Say goodbye to stress and unproductivity in hackathons | Product Hunt Embed"
-								style={{
-									width: 250,
-									height: 54
-								}}
-							/>
-						</a>
+							Download for iOS
+						</Button>
+					</Col>
+					<Col xs={12} xl={6}>
+						<Button
+							goTo={
+								'https://play.google.com/store/apps/details?id=com.hackatrack&hl=pt_BR'
+							}
+							primary
+						>
+							Download for Android
+						</Button>
 					</Col>
 				</Row>
 			</Col>
