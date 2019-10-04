@@ -23,7 +23,7 @@ const Header = () => (
 				<Row>
 					<Col xs={12} xl={6}>
 						<Button
-							goTo={'https://testflight.apple.com/join/G7P2dUfBg'}
+							goTo={'https://testflight.apple.com/join/G7P2dUfB'}
 							primary
 						>
 							Download for iOS
